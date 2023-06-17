@@ -1,9 +1,3 @@
-#!/bin/bash
-/*
- *  * File: 4-puts.c
- *   * Auth: Saima Riaz <6738@holbertonschool.com>
- *    */
-
 #include <stdio.h>
 
 /**
