@@ -20,7 +20,7 @@ int main(void)
   if (n == 0)
   {
 
-	printf("%d the  number is zero", n);
+	printf("%d is zero", n);
   }
     
   else if (n < 0)
