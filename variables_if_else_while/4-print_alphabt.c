@@ -12,9 +12,9 @@ char alphabet;
 for  (alphabet ='a'; alphabet <== 'z' ; alphabet++)
 
 {
- if (letter != 'e' && letter != 'q')
+ if (alphabet != 'e' && alphabet != 'q')
 
-putchar(letter);
+putchar(alphabet);
 
 }
 
