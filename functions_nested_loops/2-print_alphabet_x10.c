@@ -5,11 +5,11 @@
 
 	void print_alphabet_x10(void)
 
-{
-	int i = 0;
-	char letter;
+	{	
+		int i = 0;
+		char letter;
 
-	while (i <= 9)
+		while (i<= 9)
 
 	{
 
@@ -22,7 +22,7 @@
 	_putchar('\n');
 	
 	i++;
-	i
+	
 	}	
 
 }
