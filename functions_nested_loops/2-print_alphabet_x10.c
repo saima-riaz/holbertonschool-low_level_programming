@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+*
 *prints_x10 -print 10 times the alphabet, in lowercase, followed by a new line.
 */
 
@@ -23,6 +24,5 @@
 	
 	i++;
 	
-	}	
 
 }
