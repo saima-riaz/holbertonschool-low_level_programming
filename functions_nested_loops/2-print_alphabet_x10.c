@@ -6,10 +6,10 @@
 	void print_alphabet_x10(void)
 
 {
-	int count = 0;
+	int i = 0;
 	char letter;
 
-	while (count++ <= 9)
+	while (i <= 9)
 
 	{
 
@@ -22,6 +22,7 @@
 	_putchar('\n');
 	
 	i++;
+	i
 	}	
 
 }
