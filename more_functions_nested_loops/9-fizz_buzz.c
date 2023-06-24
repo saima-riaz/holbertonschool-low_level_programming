@@ -19,7 +19,9 @@ printf("Fizz");
 }
 if (i % 5 == 0)
 {
+
 printf("Buzz");
+
 }
 else
 {
