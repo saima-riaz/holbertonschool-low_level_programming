@@ -2,38 +2,27 @@
 
 /**
  * cap_string - capitalize all words of a string
- * @str: string
- * Return: `str`
+ * @s: string with words to capitalize
+ * Return: pointer to resulting string
  */
+char *cap_string(char *s)
+{
+char *r = s;
+int i;
+char a[] = " \t\n,.!?\"(){}";
+int cap = 1;
 
-char *cap_string(char *str)
+while (*s)
 {
-int i, c;
-int trigger;
-char nots[] = ",;.!?(){}\n\t\" ";
-
-for (i = 0, trigger = 0; str[i] != '\0'; i++)
+if (cap && *s >= 'a' && *s <= 'z')
+*s -= 32;
+cap = 0;
+for (i = 0; i < 12; i++)
 {
-if (str[0] > 96 && str[0] < 123)
-trigger = 1
-for (c = 0; nots[c] != '\0'; c++)
-{
-if (nots[c] == str[i])
-trigger = 1;
+if (*s == a[i])
+cap = 1;
 }
-
-if (trigger)
-{
-if (str[i] > 96 && str[i] < 123)
-{
-str[i] -= 32;
-trigger = 0;
+s++;
 }
-else if (str[i] > 64 && str[i] < 91)
-trigger = 0;
-else if (str[i] > 47 && str[i] < 58)
-trigger = 0;
-}
-}
-return (str);
+return (r);
 }
