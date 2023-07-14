@@ -26,7 +26,7 @@ lg2 = _strlen(s2);
 if (n < lg2)
 lg2 = n;
 lg = lg1 + lg2 + 1;
-s3 = malloc(lg * sizeof(char));
+s3 = malloc(lg *sizeof(char));
 if (s3  == NULL)
 return (NULL);
 /*  concatenation s1 and s2 in s3 */
